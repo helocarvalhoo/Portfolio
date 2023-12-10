@@ -1,0 +1,101 @@
+/* pagina toda */
+body {
+	background-color: #E5A9DA;
+	color: black;
+	font-family: verdana;
+	text-align: justify;
+	width: 80%;
+	margin: auto;
+}
+
+#topo {
+	background-color: #E551AD;
+	padding: 20px;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+}
+#sumario {
+	background-color: #E193E5;
+}
+
+/* links */
+a {
+	text-decoration: none;
+	color: purple;
+	
+}
+
+a:hover {
+	color: white;
+}
+
+a:visited{
+	color: red;
+}
+
+a:active{
+	color: green;
+}
+
+
+
+/* tabelas */
+table {
+	width: 100%;
+}
+
+th, td{
+	
+	border-width: 2px;
+	border-style: solid;
+	border-color: white;
+	border-radius: 6px;
+	text-align: center;
+	padding: 4px;
+
+}
+
+th {
+	background-color:#942EE6;
+	text-align: center;
+}
+
+td {
+	background-color: #BB4FE6;
+	color: white;
+}
+
+section{
+	padding: 28px 18px;
+}
+
+
+/* paragrafos */
+p {
+	text-align: justify-all;
+	text-indent: 30px;
+}
+
+/* imagens */
+img {
+	width: 300px;
+	display: block;
+	margin: auto;
+	border-radius: 18px;
+}
+
+
+/* titulos */
+.titulo {
+	background-color: #E551AD;
+	color: black;
+	text-align: center;
+}
+
+#l1, #l3, #l5 {
+	background-color: #E193E5;
+}
+
+h4{
+	text-align: center;
+}
