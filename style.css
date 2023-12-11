@@ -97,12 +97,18 @@
 /* desativado filter bug */
 .glass
 {
-	/*background: rgba(88, 9, 101, 0.09);
+	background: rgba(88, 9, 101, 0.09);
 border-radius: 16px;
 box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
  backdrop-filter: blur(2.9px); 
 -webkit-backdrop-filter: blur(2.9px);
-border: 1px solid rgba(88, 9, 101, 0.8);*/
+border: 1px solid rgba(88, 9, 101, 0.8);
+    height: 30%; /* para diminuir a altura */
+    position: absolute; /*para posicionar em relação ao container e poder movê-lo */
+    top: 50%; /* definição do topo do elemento para que fique no meio verticalmente */
+    left: 50%; /* definição da esquerda do elemento para que fique centralizado horizontalmente */
+    transform: translate(-50%, -50%); /* movimento de retornar metade do seu tamanho para que centralize de verdade */
+
 }
 
 #sobre, #servicos, #portfolio, #contato 
